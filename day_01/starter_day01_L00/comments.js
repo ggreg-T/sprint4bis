@@ -3,4 +3,4 @@
 //Bienvenue dans JavaScript
 //Les commentaires peuvent rendre le code lisible,
 // facile à réutiliser
-// et informatif
+//et informatif
