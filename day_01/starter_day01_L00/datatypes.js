@@ -1,13 +1,12 @@
 // typeof
 let premierVar = "tout debut";
-typeof premierVar;
-let deuxio = ;
-typeof deuxio;
+console.log(typeof premierVar);
+let deuxio = undefined;
+console.log(typeof deuxio);
 let troisio = false;
-typeof troisio ;
+console.log(typeof troisio);
 let quatro = null;
-typeof quatro
-
+console.log(typeof quatro);
 
 let var1 = "";
 console.log(var1);
@@ -21,3 +20,11 @@ console.log(var5);
 let var6 = 2;
 let var7 = 3;
 let var8 = 4;
+
+const name = "techer";
+const prenom = "gregory";
+const stattu = "marié";
+const paysville = "reunion";
+
+const myAge = "38 ans";
+const yourAge = "30 ans";
