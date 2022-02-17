@@ -1,19 +1,36 @@
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mastering JS</title>
-</head>
+  </head>
 
-<body>
-        <h1>Mastering JS:01 Day L01</h1>
-        <h2>Introduction</h2>
-        <button onclick="alert('Mastering JavaScript!');">Click Me</button>
-        <script src=""></script>
-        <script src=""></script>
-        <script src=""></script>
-
-
-</body>
-
+  <body>
+    <h1>Mastering JS:01 Day L01</h1>
+    <h2>Introduction</h2>
+    <button onclick="alert('Mastering JavaScript!');">Click Me</button>
+    <script>
+      //----fomat de date
+      function recherche_date() {
+        var d = new Date(); //instensiation de la date
+        let day = addZero(d.getDate()); //instensiation du jour
+        let month = addZero(d.getMonth() + 1); //instensiation du mois
+        let h = addZero(d.getHours()); //instensiation de l'heure
+        let m = addZero(d.getMinutes()); //instensiation des minute
+        let s = addZero(d.getSeconds()); //instensiation des seconde
+        function addZero(i) {
+          if (i < 10) {
+            i = "0" + i;
+          }
+          return i;
+        }
+        time = h + ":" + m + ":" + s; //cree l'heure au format demander
+        var date = d.getFullYear() + "/" + month + "/" + day + ",   " + time; //cree la date au format demander
+        return date;
+      }
+      console.log(recherche_date());
+    </script>
+  </body>
 </html>
