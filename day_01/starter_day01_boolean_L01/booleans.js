@@ -61,8 +61,12 @@ console.log(!(4 === "4")); //faux
 const d = new Date();
 let year = d.getFullYear();
 console.log(year);
-let mois = d.getMonth();
+let mois = d.getMonth() + 1;
 console.log(mois);
+let date = d.getDate();
+console.log(date);
 let jour = d.getDay();
-console.log(jour);
+// console.log(jour);
+let heure = d.getHours();
+console.log(heure);
 //---
