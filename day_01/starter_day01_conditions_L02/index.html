@@ -14,30 +14,54 @@
     <script>
       // ----CONDITION LEVEL 02---
 
-      // 80-100, A
-      // 70-79, B
-      // 60-69, C
-      // 50-59, D
-      // 0-49, F
-      let note = prompt("Entrez votre note");
-      function notation() {
-        if (note >= 80 && note <= 100) {
-          alert("A");
+      // 80-100, A /70-79, B /60-69, C /50-59, D /0-49, F
+
+      //   let note = prompt("Entrez votre note");
+      //   function notation() {
+      //     if (note >= 80 && note <= 100) {
+      //       alert("A");
+      //     }
+      //     if (note >= 70 && note <= 79) {
+      //       alert("B");
+      //     }
+      //     if (note >= 60 && note <= 69) {
+      //       alert("C");
+      //     }
+      //     if (note >= 50 && note <= 59) {
+      //       alert("D");
+      //     }
+      //     if (note >= 0 && note <= 49) {
+      //       alert("F");
+      //     }
+      //   }
+      //   console.log(notation());
+
+      // -----2
+      let sais = prompt("Entrez le mois").toUpperCase();
+      console.log(sais);
+      function saison() {
+        if (sais.match("MAI") || sais.match("MARS") || sais.match("AVRIL")) {
+          alert("Printemps");
         }
-        if (note >= 70 && note <= 79) {
-          alert("B");
+        if (sais.match("JUIN") || sais.match("JUILLET") || sais.match("AOUT")) {
+          alert("Été");
         }
-        if (note >= 60 && note <= 69) {
-          alert("C");
+        if (
+          sais.match("DECEMBRE") ||
+          sais.match("JANVIER") ||
+          sais.match("FEVRIER")
+        ) {
+          alert("Hiver");
         }
-        if (note >= 50 && note <= 59) {
-          alert("D");
-        }
-        if (note >= 0 && note <= 49) {
-          alert("F");
+        if (
+          sais.match("NOVEMBRE") ||
+          sais.match("OCTOBRE") ||
+          sais.match("SEPTEMBRE")
+        ) {
+          alert("Automne");
         }
       }
-      console.log(notation());
+      console.log("dehors", saison());
     </script>
   </body>
 </html>
