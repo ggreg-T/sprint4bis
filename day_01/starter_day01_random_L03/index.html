@@ -32,6 +32,33 @@
         return date;
       }
       console.log(recherche_date());
+
+      //---ALÉATOIRE LEVEL L03 (partie 2)
+      let sais = prompt("Entrez le mois").toUpperCase();
+      console.log(sais);
+      function saison() {
+        if (sais.match("JANVIER")) {
+          alert("Janvier a 31jours.");
+        }
+        if (sais.match("FEVRIER")) {
+          alert("Fevrier a 28jours.");
+        }
+        if (sais.match("MARS")) {
+          alert("Mars a 31jours.");
+        }
+        if (sais.match("AVRIL")) {
+          alert("Avril a 30jours.");
+        }
+        if (sais.match("MAI")) {
+          alert("Mai a 31jours.");
+        }
+        if (sais.match("JUIN")) {
+          alert("Juin a 30jours.");
+        }
+      }
+      console.log(saison());
+      //
+      //
     </script>
   </body>
 </html>
