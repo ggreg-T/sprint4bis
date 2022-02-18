@@ -6,10 +6,10 @@ let country = "";
 let city = "";
 let age = "";
 
-//2--- verif de typeof 10
+//2--- verif de typeof 10_________AC
 console.log(typeof 10);
 console.log("10" === 10);
-//3--- verif pasefloat 9,8
+//3--- verif pasefloat 9,8________AC
 console.log(parseInt(9.8));
 console.log("10" === 10);
 //4--- valeur booleene
@@ -27,18 +27,18 @@ console.log(faux1);
 console.log(faux2);
 console.log(faux3);
 
-//5--- verif sans log et avec log
-console.log(4 > 3);
-console.log(4 >= 3);
-console.log(4 < 3);
-console.log(4 <= 3);
-console.log(4 == 4);
-console.log(4 === 4);
-console.log(4 != 4);
-console.log(4 !== 4);
-console.log(4 != "4");
-console.log(4 == "4");
-console.log(4 === "4");
+//5--- verif sans log et avec log_____AC
+console.log(4 > 3); // vrai
+console.log(4 >= 3); // faux
+console.log(4 < 3); // faux
+console.log(4 <= 3); // faux
+console.log(4 == 4); // vrai
+console.log(4 === 4); // vrai
+console.log(4 != 4); // faux
+console.log(4 !== 4); // faux
+console.log(4 != "4"); // vrai
+console.log(4 == "4"); // fuax
+console.log(4 === "4"); // faux
 let pyth = "python";
 console.log((pyth.length = 10));
 let jar = "jargon";
@@ -69,4 +69,3 @@ let jour = d.getDay();
 // console.log(jour);
 let heure = d.getHours();
 console.log(heure);
-//---
