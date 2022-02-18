@@ -69,9 +69,9 @@ function veri() {
 //---16
 // console.log(itCompanies.reverse());
 //----17
-// console.log(itCompanies.slice(4));
+console.log(itCompanies.slice(3));
 //--- 18
-
+log;
 //---19
 // console.log(itCompanies.slice(5, 6));
 //--- 20
@@ -85,3 +85,7 @@ function veri() {
 //---23
 // console.log(itCompanies.splice(0, 6));// marche pas
 // console.log(itCompanies);
+
+//===============================================
+
+//________ARRAY LEVEL 01
