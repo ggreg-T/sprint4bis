@@ -43,8 +43,7 @@ console.log(itCompanies[4].toUpperCase()); // ok
 console.log(itCompanies[5].toUpperCase()); // ok
 
 //---12
-let comp =
-  '"Facebook, Google, Microsoft, Apple, IBM, Oracle et Amazon sont de grandes entreprises d\'IT".';
+let comp = itCompanies.join(",");
 console.log(comp);
 //---13
 //let verifComp = prompt("Entrez la compagnie").toUpperCase();
@@ -69,11 +68,11 @@ function veri() {
 //---16
 // console.log(itCompanies.reverse());
 //----17
-console.log(itCompanies.slice(3));
+// console.log(itCompanies.slice(3));
 //--- 18
-log;
+// console.log(itCompanies.slice(0, -4));
 //---19
-// console.log(itCompanies.slice(5, 6));
+// console.log(itCompanies.slice(-3));
 //--- 20
 // console.log(itCompanies.splice(0));
 //----21
@@ -88,4 +87,13 @@ log;
 
 //===============================================
 
-//________ARRAY LEVEL 01
+//________ARRAY LEVEL 01 MAIN JS_______
+
+//---1 et 2
+let text =
+  "I love teaching and empowering people. I teach HTML, CSS, JS, VueJs, Laravel.";
+console.log(text.replace(",", ""));
+words = text.split(" ");
+console.log(words);
+
+console.log(words.length);
