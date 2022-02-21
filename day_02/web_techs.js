@@ -6,4 +6,5 @@ const webTechs = [
   "MySQL",
   "Node",
   "Bootstrap",
+  "Sass",
 ];
