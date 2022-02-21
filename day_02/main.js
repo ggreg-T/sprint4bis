@@ -183,15 +183,65 @@ let itCompanies = [
 // }
 
 //------6---
-for (let i = 0; i < 100; i++) {
-  if (i % 2 == 0) {
-    console.log("i", i);
-  }
-  break;
-  console.log("i2", i);
-}
+// for (let i = 0; i < 100; i++) {
+//   if (i % 2 == 0) {
+//     console.log("i", i);
+//   }
+// }
 //------7---------
-
+// for (let i = 0; i < 100; i++) {
+//   if (i % 3 == 0) {
+//     console.log("i", i);
+//   }
+// }
 //------8---------
-
+//---(FACULTATIF)----
 //------9---------
+
+//===============================================
+//~~~~~Loops: Level01
+//-----1
+// console.log(randString(7));
+// function randString(str_length) {
+//   let rstring = "";
+//   let char = "ABZERTYUIOPMLKJHGFDSQWXCVNazertyuiopmlkjhgfdsqwxcvbn0123456789";
+//   for (let i = 0; i < str_length; i++) {
+//     rstring += char.charAt(Math.floor(Math.random() * char.length));
+//   }
+//   return rstring;
+// }
+
+//-----2
+// let rcolor = "";
+// let col = 0xffffff;
+// for (let i = 0; i < col; i++) {
+//   rcolor += ((Math.random() * col) << 0).toString(16);
+//   console.log(rcolor);
+//   break;
+// }
+
+//~~~~~Functions: Level01
+//-----1
+
+//-----2  ______________________AC
+// function identité() {
+//   let firstName = "gregory";
+//   let lastName = "techer";
+//   return firstName + " " + lastName;
+// }
+// console.log(identité());
+
+//-----3
+let nbr = number(5, 4);
+
+function number(a, b) {
+  return a + b;
+}
+console.log(nbr);
+//-----4
+
+//-----5
+
+//-----6
+
+//-----7
