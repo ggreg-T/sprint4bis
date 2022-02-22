@@ -264,6 +264,18 @@ let itCompanies = [
 
 //-----7 et 8 FACULTATIF
 //========================================
+
+//---Objects: Level01
+//--1
+let chien = {};
+//--2
+console.log(chien);
+//---3
+
+//---4
+
+//---5
+
 //~~~~Objects: Level02
 //---1 et 2
 const users = {

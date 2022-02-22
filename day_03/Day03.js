@@ -11,5 +11,20 @@ const products = [
   { product: "tea", price: "" },
 ];
 // ---1
-
+// console.log(products.map(getFullName));
 //---2
+
+//---3
+// countries.forEach((element) => console.log(element));
+
+//---4 et 5 FACULTATIf
+
+//---6
+// let majus = countries.map((el) => {
+//   console.log(el.toUpperCase());
+// });
+
+//---7
+let majus = countries.map((el) => {
+  console.log(el.length);
+});
