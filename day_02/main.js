@@ -232,16 +232,112 @@ let itCompanies = [
 // console.log(identité());
 
 //-----3
-let nbr = number(5, 4);
+// let nbr = number(5, 4);
 
-function number(a, b) {
-  return a + b;
-}
-console.log(nbr);
+// function number(a, b) {
+//   return a + b;
+// }
+// console.log(nbr);
 //-----4
+// let aire_rectangle = number(5, 4) + " metre carré";
+
+// function number(a, b) {
+//   return a * b;
+// }
+// console.log(aire_rectangle);
 
 //-----5
+// let perimetre = 2 * number(5, 4) + " metre carré";
+
+// function number(a, b) {
+//   return a * b;
+// }
+// console.log(perimetre);
 
 //-----6
+// let circle = 3.14 * number(5, 4) + " cent carré";
 
-//-----7
+// function number(a, b) {
+//   return a * b;
+// }
+// console.log(circle);
+
+//-----7 et 8 FACULTATIF
+//========================================
+//~~~~Objects: Level02
+//---1 et 2
+const users = {
+  Alex: {
+    email: "alex@alex.com",
+    skills: ["HTML", "CSS", "JavaScript"],
+    age: 20,
+    isLoggedIn: false,
+    points: 30,
+  },
+  Asab: {
+    email: "asab@asab.com",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Redux",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+    ],
+    age: 25,
+    isLoggedIn: false,
+    points: 50,
+  },
+  Brook: {
+    email: "daniel@daniel.com",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux"],
+    age: 30,
+    isLoggedIn: true,
+    points: 50,
+  },
+  Daniel: {
+    email: "daniel@alex.com",
+    skills: ["HTML", "CSS", "JavaScript", "Python"],
+    age: 20,
+    isLoggedIn: false,
+    points: 40,
+  },
+  John: {
+    email: "john@john.com",
+    skills: ["HTML", "CSS", "JavaScript", "React", "Redux", "Node.js"],
+    age: 20,
+    isLoggedIn: true,
+    points: 50,
+  },
+  Thomas: {
+    email: "thomas@thomas.com",
+    skills: ["HTML", "CSS", "JavaScript", "React"],
+    age: 20,
+    isLoggedIn: false,
+    points: 40,
+  },
+  Paul: {
+    email: "paul@paul.com",
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MongoDB",
+      "Express",
+      "React",
+      "Node",
+    ],
+    age: 20,
+    isLoggedIn: false,
+    points: 40,
+  },
+};
+
+console.log(Math.max.apply(points, users));
+
+// console.log(users);
+//---3
+
+//---4
