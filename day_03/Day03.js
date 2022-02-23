@@ -80,27 +80,28 @@
 
 //___Sets and Maps
 // Exercises:Level 1
+
 // const a = {4, 5, 8, 9};
 // const b = {3, 4, 5, 7}
 // const countries = ["Finland", "Sweden", "Norway"];
 
 //-----1
-const vide = new Set();
+// const vide = new Set();
 
 //-----2
-vide.add(1);
-vide.add(2);
-vide.add(3);
-vide.add(4);
-vide.add(5);
-vide.add(6);
-vide.add(7);
-vide.add(8);
-vide.add(9);
-vide.add(10);
+// vide.add(1);
+// vide.add(2);
+// vide.add(3);
+// vide.add(4);
+// vide.add(5);
+// vide.add(6);
+// vide.add(7);
+// vide.add(8);
+// vide.add(9);
+// vide.add(10);
 
 // for (const item of vide) {
-//   console.log(item);
+// console.log(item);
 // }
 // console.log(vide);
 
@@ -109,8 +110,106 @@ vide.add(10);
 // console.log(vide);
 
 //-----4
-
+// vide.clear();
+// console.log(vide);
 //----6
 
 //___Exercises:Level 2
+const a = new Set([4, 5, 8, 9]);
+const b = new Set([3, 4, 5, 7]);
+//--1
+let intersection = new Set([...a].filter((x) => b.has(x)));
+// console.log(intersection);
+
+//--2
+let union = new Set([...new Set([...a, ...b])]);
+// console.log(union);
+
+//--Destructuring and Spreading
+//--Exercises: Level 1
+// const constants = [2.72, 3.14, 9.81, 37, 100];
+// const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
+// const rectangle = {
+//   width: 20,
+//   height: 10,
+//   area: 200,
+//   perimeter: 60,
+// };
+
 //-----1
+console.log(constants);
+// constants.length = 0;
+// console.log(constants);
+// constants.splice(
+//   -1,
+//   0,
+//   "e",
+//   "pi",
+//   "gravity",
+//   "humanBodyTemp",
+//   "waterBoilingTemp"
+// );
+// console.log(constants);
+
+// //----2
+// countries.length = 0;
+// countries.splice(-1, 0, "fin", "est", "sw", "den", "nor");
+// console.log(countries);
+
+//--Exercises: Level 2
+// const constants = [2.72, 3.14, 9.81, 37, 100];
+const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
+const rectangle = {
+  width: 20,
+  height: 10,
+  area: 200,
+  perimeter: 60,
+};
+const users = [
+  {
+    name: "Brook",
+    scores: 75,
+    skills: ["HTM", "CSS", "JS"],
+    age: 16,
+  },
+  {
+    name: "Alex",
+    scores: 80,
+    skills: ["HTM", "CSS", "JS"],
+    age: 18,
+  },
+  {
+    name: "David",
+    scores: 75,
+    skills: ["HTM", "CSS"],
+    age: 22,
+  },
+  {
+    name: "John",
+    scores: 85,
+    skills: ["HTML"],
+    age: 25,
+  },
+  {
+    name: "Sara",
+    scores: 95,
+    skills: ["HTM", "CSS", "JS"],
+    age: 26,
+  },
+  {
+    name: "Martha",
+    scores: 80,
+    skills: ["HTM", "CSS", "JS"],
+    age: 18,
+  },
+  {
+    name: "Thomas",
+    scores: 90,
+    skills: ["HTM", "CSS", "JS"],
+    age: 20,
+  },
+];
+
+//-----1
+
+//----2
