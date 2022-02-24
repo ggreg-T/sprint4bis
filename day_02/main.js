@@ -178,8 +178,8 @@ let itCompanies = [
 // ffor();
 
 //---5---------
-// for (let x = 0; x <= 10; x++) {
-//   console.log(x, " ", x + " = " + x * x);
+// for (let x = 1; x < 10; x++) {
+//   console.log(x, "x", x + " = " + x * x);
 // }
 
 //------6---
@@ -267,9 +267,9 @@ let itCompanies = [
 
 //---Objects: Level01
 //--1
-let chien = {};
+// let chien = {};
 //--2
-console.log(chien);
+// console.log(chien);
 //---3
 
 //---4
@@ -340,6 +340,9 @@ const users = {
       "Express",
       "React",
       "Node",
+      "hgj",
+      "hg",
+      "ey",
     ],
     age: 20,
     isLoggedIn: false,
@@ -347,9 +350,21 @@ const users = {
   },
 };
 
-console.log(Math.max.apply(points, users));
+//---1
 
-// console.log(users);
-//---3
-
-//---4
+let long = -1;
+let noom = "";
+for (let i in users) {
+  if (users[i].skills.length > long) {
+    long = users[i].skills.length;
+    // console.log(users[i].skills.length);
+    noom = i;
+    console.log(noom);
+  }
+}
+//---2
+for (let i in users) {
+  // console.log(users[i]);
+  if (users[i].isLoggedIn && users[i].points >= 50) {
+  }
+}

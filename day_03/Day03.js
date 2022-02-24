@@ -127,8 +127,8 @@ let union = new Set([...new Set([...a, ...b])]);
 
 //--Destructuring and Spreading
 //--Exercises: Level 1
-// const constants = [2.72, 3.14, 9.81, 37, 100];
-// const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
+const constants = [2.72, 3.14, 9.81, 37, 100];
+const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
 // const rectangle = {
 //   width: 20,
 //   height: 10,
@@ -137,28 +137,24 @@ let union = new Set([...new Set([...a, ...b])]);
 // };
 
 //-----1
-console.log(constants);
-// constants.length = 0;
-// console.log(constants);
-// constants.splice(
-//   -1,
-//   0,
-//   "e",
-//   "pi",
-//   "gravity",
-//   "humanBodyTemp",
-//   "waterBoilingTemp"
-// );
+// const [e, pi, gravity, humanBodyTemp, waterBooilingTemp] = constants;
 // console.log(constants);
 
 // //----2
+let fin = countries[0];
+console.log(fin);
+let est = countries[1];
+let sw = countries[2];
+let den = countries[3];
+let nor = countries[4];
+console.log(countries);
 // countries.length = 0;
 // countries.splice(-1, 0, "fin", "est", "sw", "den", "nor");
 // console.log(countries);
 
 //--Exercises: Level 2
 // const constants = [2.72, 3.14, 9.81, 37, 100];
-const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
+// const countries = ["Finland", "Estonia", "Sweden", "Denmark", "Norway"];
 const rectangle = {
   width: 20,
   height: 10,
